@@ -1,0 +1,6 @@
+/** components/Countdown/countdown.wxss **/
+.timer-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,8 @@
+<!--components/Timer/timer.wxml-->
+<view class='timer_container'>
+    <view class='timer'>
+        <button type='primary' style='margin-bottom:40px;' bindtap='setInterStart'>开始</button>
+        <button type='primary' bindtap='setInterEnd'>结束</button>
+        <view class='timer-number'>{{seconds}}</view>
+    </view>
+</view>

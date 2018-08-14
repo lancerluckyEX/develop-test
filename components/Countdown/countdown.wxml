@@ -1,0 +1,6 @@
+<!--components/Countdown/countdown.wxml-->
+<view class='timer_container'>
+    <view class='timer'>
+        <button class='timer-number' bindtap='setTimeStart'>{{text}}</button>
+    </view>
+</view>
